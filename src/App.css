@@ -1,0 +1,140 @@
+/* Estilos generales */
+body {
+  background-color: #f2f2f2;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+/* Encabezado */
+header {
+  background-color: #0e6647;
+  color: #fff;
+  padding: 10px;
+}
+
+header h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+/* Menú de navegación */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #0a4733;
+}
+
+/* Contenido */
+main {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+/* Botones */
+.btn {
+  background-color: #0e6647;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #0a4733;
+}
+
+/* Pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Estilos específicos para UNIR */
+.unir-green {
+  color: #0e6647;
+}
+
+.unir-dark {
+  color: #333;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.table td button {
+  margin-right: 8px;
+  /*background-color: #4caf50;*/
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/*.table td button:hover {
+  background-color: #3e8e41;
+}*/
+
+.btn-editar {
+  background-color: #2196f3;
+}
+
+.btn-editar:hover {
+  background-color: #0e86d4;
+}
+
+.btn-eliminar {
+  background-color: #f44336;
+}
+
+.btn-eliminar:hover {
+  background-color: #d32f2f;
+}
