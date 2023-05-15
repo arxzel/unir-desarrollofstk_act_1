@@ -12,7 +12,7 @@ function Index() {
         Así mismo, el docente puede ser maestro de otros cursos.
         Los estudiantes pueden estar listados en varios cursos.
         El alcance de este proyecto, tiene como ejercicio desarrollar los conocimientos adquiridos en la clase
-        de desarrollo fullstack, implementando componentes, hooks y props en angular
+        de desarrollo fullstack, implementando componentes, hooks y props en reactjs
     </p>
   </div>;
 }
